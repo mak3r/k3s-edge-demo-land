@@ -4,22 +4,17 @@ This use case can be demonstrated using either single or multi-node clusters. Th
 ## Device List
 * @see [Single Node Master](../single-node-master/README.md)
 * @see [Dual Node Master](../dual-node-master/README.md)
+* TODO: Multi-node master with embedded db docs 
 
 ## DB Configuration
 * Varies based on device selection
 
 ## Additional Resources
-* TBD - turnkey containers under development
+* [A Turnkey Solution](https://github.com/mak3r/turnkey)
 
 ## Additional Notes
 Recent developments in k3s now provide us with a *System Upgrade Controller*. This may be a valuable tool in turnkey operations.
 
 ## Demo Documentation
-* Preconfigure device with turnkey container
-    1. Plug in device
-    1. Turn on
-    1. Visit 192.168.1.1
-    1. Enter form details
-    1. Select *OK* button
-    1. Wait for device to restart
-    1. Visit *blah url* to see/operate configured device(s)
+* Preconfigure a device with [a turnkey solution](https://github.com/mak3r/turnkey)
+    * [User experience doc](https://github.com/mak3r/turnkey/blob/master/doc/user-instruction.md)
